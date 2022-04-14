@@ -1,0 +1,204 @@
+
+section{
+	width: 300px;
+}
+#google-sign-in{
+	background-color: white;
+	color:red;
+	border-color:red ;
+	font-size: 14px;
+	
+}
+#google-sign-in:hover{
+	background-color: red;
+	color:white;
+	border-color:red ;
+	font-size: 14px;
+	
+}
+#sign-in{
+	background-color: rgb(105, 7, 171);
+	color: #ffffff;
+	border-color: rgb(105, 7, 171) ;
+	font-size: 14px;
+}
+#sign-in:hover{
+	background-color: #ffffff;
+	color: rgb(105, 7, 171);
+	border-color: rgb(105, 7, 171);
+}
+.remember{
+	
+	color: gray;
+	font-size: 12px;
+	float: left;
+	width: 50%;
+}
+.forgot{
+	float: right;
+	width: 50%;
+}
+body {
+	background: #faf3f4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+.overview:hover
+{
+ color:purple;
+background:lightpink ;
+ border:solid;
+ border-radius: 1rem;
+}
+p {
+	font-size: 13px;
+	font-style: bold;
+	
+	color: gray;
+}
+span {
+	font-size: 12px;
+}
+a {
+	color: gray;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+/* a:hover{
+	color:rgb(105, 7, 171)
+} */
+
+ button {
+	border-radius: 20px;
+	border: 1px solid #d528a4;
+	background-color: #fdfdfd; 
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	font-size: 14px;
+}
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+input {
+	
+	border-top:none;border-right:none;border-left:none;
+	padding: 8px 15px;
+	margin: 3px 0;
+	width:80%;
+}
+.container {
+	background-color: rgb(124, 61, 220);
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 400px;
+}
+/* this is signup */
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+.log-in-container {
+	right: 0;
+	width: 50%;
+	z-index: 2;
+}
+.overlay-container {
+	position: absolute;
+	top: 0;
+	right: 50%;
+	width: 50%;
+	height: 100%;
+}
+.overlay {
+	background: #dbd6d7; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #2c2a2a;
+	position: relative;
+	left: -100%;
+	height: 100%;
+	width: 200%;
+}
+.overlay-panel {
+	position: absolute;
+	padding-top:2rem;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	text-align: center;
+	height: 100%;
+	width: 50%;
+}
+img{
+	height:100px;
+}
+.overlay-right {
+	right: 0;
+	background-color: #ffffff;
+}
+.social-container {
+	margin: 50px 0;
+}
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+button {
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #e43a7b;
+    outline: none;
+    border: 1px solid #e02978;
+    box-shadow: inset 0 0 0 0 #c71d72;
+    transition: .3s;
+}
+button:hover{
+    color: #f9f2f6;
+	background-color: #d528a4;
+}
+.remember{
+	text-align: left;
+	color: gray;
+}
+.g-signin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+} 
